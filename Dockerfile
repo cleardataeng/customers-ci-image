@@ -10,5 +10,3 @@ RUN pip3 --no-cache-dir install -r /root/requirements.txt
 
 # aws-sudo
 ADD aws-sudo/aws-sudo.sh /usr/local/bin/aws-sudo.sh
-
-ENTRYPOINT /bin/bash
