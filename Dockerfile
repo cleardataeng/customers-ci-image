@@ -11,7 +11,6 @@ RUN git clone https://github.com/tfutils/tfenv.git ~/.tfenv
 RUN ln -s ~/.tfenv/bin/* /usr/local/bin
 
 # Put on python modules
-RUN /usr/bin/pip3 --no-cache-dir install awscli awsrequests testinfra
 RUN /usr/bin/pip3 --no-cache-dir install -r /root/requirements.txt
 
 # Install terraform 12 and 13 versions

@@ -1,4 +1,5 @@
 awscli==1.18.54
+awsrequests==0.0.12
 boto3==1.13.4
 botocore==1.16.4
 cffi==1.14.0
@@ -14,4 +15,5 @@ PyYAML==5.3.1
 rsa==3.4.2
 s3transfer==0.3.3
 six==1.14.0
+testinfra==5.2.2
 urllib3==1.25.9
