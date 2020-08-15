@@ -4,8 +4,8 @@ ARG DEBIAN_FRONTEND=noninteractive
 COPY requirements.txt /root/requirements.txt
 
 # Get apt working and put on needed packages
-RUN apt-get update
-RUN apt-get -q -y install git python3-pip curl zip parallel
+RUN apt update
+RUN apt -q -y install git python3-pip curl zip parallel
 
 # Put on tfenv
 RUN git clone https://github.com/tfutils/tfenv.git ~/.tfenv
