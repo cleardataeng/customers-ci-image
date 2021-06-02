@@ -16,4 +16,4 @@ rsa==3.4.2
 s3transfer==0.3.3
 six==1.14.0
 testinfra==5.2.2
-urllib3==1.25.9
+urllib3==1.26.5
